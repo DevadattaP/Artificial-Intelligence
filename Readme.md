@@ -2,16 +2,15 @@
 
 This repository contains various practical programs implemented as part of the Artificial Intelligence course (Semester 5) in the Computer Science Engineering (AI & ML) curriculum at the University of Mumbai. The programs are written in Prolog and Python, demonstrating key AI concepts such as logic programming, search algorithms, and Bayesian inference.
 
+
 ## Table of Contents
 
-- [Artificial Intelligence (Semester 5 - Computer Science Engineering, AI \& ML)](#artificial-intelligence-semester-5---computer-science-engineering-ai--ml)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Programs Included](#programs-included)
-  - [Prerequisites](#prerequisites)
-  - [How to Run](#how-to-run)
-    - [Running Prolog Programs:](#running-prolog-programs)
-    - [Running Python Programs:](#running-python-programs)
+- [Introduction](#introduction)
+- [Programs Included](#programs-included)
+- [Prerequisites](#prerequisites)
+- [How to Run](#how-to-run)
+- [Program Descriptions](#program-descriptions)
+- [Contributing](#contributing)
 
 ## Introduction
 
@@ -25,7 +24,7 @@ The repository contains the following practical programs:
 2. **First-Order Predicate Logic (FOPL)**: Implementation using Prolog.
 3. **Mini Expert System**: Vacuum cleaner problem using Prolog.
 4. **Hill Climbing Algorithm**: Travelling salesperson problem.
-5. **A* Algorithm**: Informed search for the 8-puzzle problem.
+5. **A-star Algorithm**: Informed search for the 8-puzzle problem.
 6. **BFS-DFS Graph Traversal**: Water jug problem.
 7. **Adversarial Search Algorithm**: Tic-tac-toe game.
 8. **Bayesian Belief Network**: Solving the Monty Hall problem.
@@ -62,11 +61,44 @@ To run these programs, you'll need:
 ### Running Python Programs:
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/YourUsername/AI-Practicals.git
-    cd AI-Practicals/python
+    git clone https://github.com/DevadattaP/Artificial-Intelligence.git
+    cd Artificial-Intelligence
     ```
 2. **Run the Python Programs:**
    ```sh
    python filename.py
     ```
 
+## Program Descriptions
+
+### 1. Prolog Programs
+   - **Facts & Rules**: Introduction to defining basic facts and rules in Prolog, illustrating how Prolog's logical inference works.
+   - **Family Tree**: A program to represent family relationships (parent, child, sibling, etc.) and query familial relationships using Prolog.
+   - **If-Then Logic**: Demonstrating conditional logic in Prolog with simple `if-then` rules.
+   - **Minimum-Maximum Number**: Prolog program to find the minimum and maximum numbers from a list of integers.
+   - **Series & Parallel Resistance**: Calculating total resistance of circuits in series and parallel configurations using Prolog.
+
+### 2. First-Order Predicate Logic (FOPL)
+   - **FOPL in Prolog**: Implementation of First-Order Predicate Logic (FOPL) using Prolog, demonstrating logical deductions and inferences.
+
+### 3. Mini Expert System
+   - **Vacuum Cleaner Problem**: A mini expert system implemented in Prolog to simulate a simple vacuum cleaner agent that decides the next action (cleaning, moving left/right) based on current environment conditions.
+
+### 4. Hill Climbing Algorithm
+   - **Travelling Salesperson Problem (TSP)**: Implementation of the Hill Climbing algorithm, a local search algorithm, to solve the Travelling Salesperson Problem (TSP) in Python, where the goal is to find the shortest path visiting all cities.
+
+### 5. A* Algorithm
+   - **8-Puzzle Problem**: Solving the 8-puzzle problem using the A* search algorithm, an informed search technique that uses heuristics to find the optimal solution efficiently.
+
+### 6. BFS-DFS Graph Traversal
+   - **Water Jug Problem**: Implementing Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms in Python to solve the water jug problem, where the goal is to measure a specific amount of water using two jugs of given capacities.
+
+### 7. Adversarial Search Algorithm
+   - **Tic-Tac-Toe Problem**: A Python implementation of the minimax algorithm, an adversarial search technique used to play and solve the Tic-Tac-Toe game optimally.
+
+### 8. Bayesian Belief Network
+   - **Monty Hall Problem**: Solving the Monty Hall problem using a Bayesian belief network in Python, demonstrating the application of probability and decision theory to make optimal choices in uncertain environments.
+
+
+## Contributing
+Contributions are welcome! If you have any suggestions or additional programs to add, feel free to fork the repository, make your changes, and submit a pull request.
